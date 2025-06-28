@@ -109,6 +109,13 @@ python main.py
 O script irá rodar e, ao final, a sua planilha Excel estará pronta na pasta data/processed_excel.
 
 ---
+
+# ⚠️ Aviso Importante
+
+Projetos de web scraping dependem da estrutura do site-alvo. Se os desenvolvedores do site alterarem o layout da página, o robô pode deixar de encontrar as informações. Caso isso aconteça, será necessário inspecionar o novo código do site e atualizar os seletores no arquivo `scrapers/site_scraper.py`.
+
+---
+
 ## Conclusão e Próximos Passos
 
 Este projeto serve para mostras como web scraping e automação de dados funciona. Ele demonstra de forma prática como transformar informações dispersas na web em um formato estruturado e útil, economizando tempo e permitindo análises mais aprofundadas.
@@ -124,10 +131,6 @@ Com esta base, as possibilidades de expansão são muitas:
 - **Notificações**: Integre o projeto com um serviço de e-mail ou mensageiros (como Telegram) para receber as manchetes do dia assim que forem coletadas.
 
 Sinta-se à vontade para experimentar e evoluir este projeto. A automação é uma habilidade poderosa e este é apenas o começo!
-
----
-#⚠️ Aviso Importante
-Projetos de web scraping dependem da estrutura do site-alvo. Se os desenvolvedores do G1 alterarem o layout da página, o robô pode deixar de encontrar as informações. Caso isso aconteça, será necessário inspecionar o novo código do site e atualizar os seletores no arquivo scrapers/g1_scraper.py.
 
 ---
 
