@@ -10,8 +10,9 @@ Este projeto é uma ferramenta de automação construída em Python. O seu princ
 ---
 
 ## Objetivo do projeto
-
 O processo é dividido em duas missões claras, executadas em sequência.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
