@@ -128,5 +128,6 @@ Sinta-se à vontade para experimentar e evoluir este projeto. A automação é u
 ---
 #⚠️ Aviso Importante
 Projetos de web scraping dependem da estrutura do site-alvo. Se os desenvolvedores do G1 alterarem o layout da página, o robô pode deixar de encontrar as informações. Caso isso aconteça, será necessário inspecionar o novo código do site e atualizar os seletores no arquivo scrapers/g1_scraper.py.
+
 ---
 
